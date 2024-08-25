@@ -1,0 +1,25 @@
+.card {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #0D7C66; /* Changed color */
+  align-content: center;
+  margin: auto;
+}
+
+.card-header {
+  height: 30%;
+  background: #41B3A2; /* Changed color */
+  color: white;
+  text-align: center;
+}
+
+.card-header p {
+  font-size: 20px;
+  color: #D7C3F1; /* Added color for paragraph */
+}
+
+.container {
+  padding: 4px 16px;
+  background-color: #BDE8CA; /* Changed background color */
+}

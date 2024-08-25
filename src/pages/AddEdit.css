@@ -1,0 +1,39 @@
+div.form {
+    display: block;
+    text-align: center;
+  }
+  
+  form {
+    display: inline-block;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #41B3A2; /* Changed color */
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #BDE8CA; /* Changed color */
+    color: #0D7C66; /* Changed color */
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    background-color: #0D7C66; /* Changed color */
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #41B3A2; /* Changed color */
+  }
+  

@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+button {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 25px 0;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  background: #0D7C66; /* Changed color */
+  cursor: pointer;
+}
+
+.login {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 20px;
+  background: #BDE8CA; /* Changed color */
+  display: flex;
+}
+
+.login .loginContainer {
+  padding: 60px;
+  margin: auto;
+  width: 100%;
+  max-width: 520px;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: radial-gradient(
+    ellipse at left bottom,
+    rgba(13, 124, 102, 1) 0%, /* Changed color */
+    rgba(65, 179, 162, 0.9) 59%, /* Changed color */
+    rgba(13, 124, 102, 1) 100% /* Changed color */
+  );
+  box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
+}
+
+.login .loginContainer label {
+  color: white; /* Changed color */
+  margin: 14px 0;
+  display: block;
+  font-size: 22px;
+  line-height: 1;
+}
+
+.login .loginContainer input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 19px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.608);
+  color: #5d8860; /* Changed color */
+  letter-spacing: 1px;
+}
+
+.login .loginContainer .btnContainer {
+  width: 100%;
+  padding: 24px 0;
+}
+
+.login .loginContainer .btnContainer p {
+  margin: 14px 0 0 0;
+  text-align: right;
+  color: white; /* Changed color */
+}
+
+.login .loginContainer .btnContainer p span {
+  color: white; /* Changed color */
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: all 400ms ease-in-out;
+}
+
+.login .loginContainer .btnContainer p span:hover {
+  color: #D7C3F1; /* Changed color */
+}
+
+.login .loginContainer .errorMsg {
+  color: red; /* You might want to update this */
+  font-size: 16px;
+}
+
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background: radial-gradient(
+    ellipse at left bottom,
+    rgba(13, 124, 102, 1) 0%, /* Changed color */
+    rgba(65, 179, 162, 0.9) 59%, /* Changed color */
+    rgba(189, 232, 202, 0.9) 100% /* Changed color */
+  );
+}
+
+.hero nav {
+  background: #0D7C66; /* Changed color */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero nav h2 {
+  color: #fff;
+}
+
+.hero nav button {
+  width: 86px;
+  padding: 8px 0;
+  background: #41B3A2; /* Changed color */
+}
