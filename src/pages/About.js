@@ -9,7 +9,7 @@ const About = () => {
         </h2>
         <br />
         
-        <a href="https://www.linkedin.com/in/uday-kumar-140722226/"
+        <a href="https://www.linkedin.com/in/udayvelupuri"
           target='_blank' rel="noreferrer">
           Made with ❤️ by Uday Kumar
         </a>
